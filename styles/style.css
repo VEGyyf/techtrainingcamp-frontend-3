@@ -1,0 +1,201 @@
+body{
+    background: #ffffff ;
+    margin: 0;/*消除body中的留白*/
+    padding: 0;
+    text-align: center;
+}
+
+
+/*game*/
+.container{
+    position: fixed;
+    width: 55%;
+    left: 20%;
+    top:0;
+    bottom:0;
+    text-align: center;
+    background-color: #a0adbb;
+}
+
+header{
+    width: 100%;
+    margin:0 auto;
+    text-align:center;
+}
+
+header h1{
+    font-size: 45px;
+    font-weight: bold;
+    color:#8f7a66
+}
+
+header #newGame{
+    display:block;
+    margin:5px auto;
+    width: 100px;
+    padding:5px 5px;
+    background-color: #8f7a66;
+    color:white;
+    border-radius:10px;
+    text-decoration: none;
+}
+
+header #newGame:hover{
+    background-color: #9f8b77;
+}
+
+
+header p{
+    font-size: 20px;
+    margin: 10px auto;
+    color:#5a4d40;
+}
+
+#grid-container{
+    width: 460px;
+    height: 460px;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    margin:10px auto;
+    background-color: #bbada0;
+}
+
+.grid-cell{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc0b3;
+    border-radius: 6px;
+}
+
+.number-cell{
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+/*leftbar*/
+.leftbar{
+    position: fixed;
+    width:20%;
+    top:0;
+    bottom:0;
+    background-color: #bba0ad;
+}
+
+.player{
+    float: top;
+    height: 33%;
+}
+
+.images{
+    padding: 6px;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    left: 75px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #bbada0;
+}
+.mini-grid-cell{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc0b3;
+    border-radius: 6px;
+}
+
+.mini-number-cell{
+    position: absolute;
+    font-weight: bold;
+    font-size: 40%;
+    line-height: 100%;
+    text-align: center;
+    border-radius: 6px;
+}
+/*room*/
+.rightbar{
+    position: fixed;
+    width: 25%;
+    left: 75%;
+    top:0;
+    bottom:0;
+    text-align: center;
+    background-color: #bba0ad;
+}
+
+.userbar{
+    float: top;
+    height: 25%;
+    text-align: center;
+    background-color: #bba0ad;
+}
+
+.inputbar{
+    float:top;
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    padding: 5px 5px;
+}
+
+input{
+    border: 1px solid #ccc; 
+    padding: 7px 0px;
+    border-radius: 3px; /*css3属性IE不支持*/
+    padding-left:5px; 
+}
+
+.userbutton{
+    display:block;
+    margin:5px auto;
+    width: 100px;
+    padding:5px 5px;
+    background-color: #8f7a66;
+    color:white;
+    border-radius:10px;
+    text-decoration: none;
+}
+
+.musicsetting{
+    float: top;
+    height: 10%;
+    text-align: center;
+    background-color: #bbada0;
+    ;
+}
+
+.roombar{
+    float: top;
+    height: 75%;
+    background-color: #bba0ad;
+}
+
+.roomline{
+    display: block;
+    margin: 30px auto;
+    width: 250px;
+    padding:10px 10px;
+    background-color: #8f7a66;
+    color:white;
+    border-radius:10px;
+    text-decoration: none;
+}
+
+.roomline:hover{
+    background-color: #9f8b77;
+}
+
+.roomline:active{
+    background-color: #f5d7ba;
+}
+
+.roomline:visited{
+    background-color: #0a0a0a;
+}
